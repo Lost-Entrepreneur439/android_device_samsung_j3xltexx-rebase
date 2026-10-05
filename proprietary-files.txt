@@ -1,4 +1,4 @@
-# All unpinned blobs come from j2lte stock (L)
+# All unpinned blobs come from j3xltebmc stock (N)
 
 # Camera
 lib/hw/camera.exynos3.so:vendor/lib/hw/camera.vendor.exynos5.so

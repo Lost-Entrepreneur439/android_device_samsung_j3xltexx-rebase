@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_j2lte",
+    name: "libinit_j3xltexx",
     recovery_available: true,
-    srcs: ["init_j2lte.cpp"],
+    srcs: ["init_j3xltexx.cpp"],
     include_dirs: [
         "device/samsung/universal3475-common/init",
         "system/core/base/include",

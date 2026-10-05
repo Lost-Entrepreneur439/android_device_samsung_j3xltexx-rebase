@@ -18,7 +18,7 @@
 set -e
 
 VENDOR=samsung
-DEVICE=j2lte
+DEVICE=j3xltexx
 
 export INITIAL_COPYRIGHT_YEAR=2016
 
@@ -39,7 +39,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}"
 
 # Copyright headers and guards
-write_headers "j2lte,j2ltedd,j2ltedx,j2ltedtvvj,j2ltejv,j2lteub,j2ltezt"
+write_headers "j3xltexx,j3xlteatt,j3xlteuc,j3xlteaio,j3ltetu,j3xltebmc"
 
 # The standard blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true

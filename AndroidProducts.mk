@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/j2lte
+LOCAL_PATH := device/samsung/j3xltexx
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/lineage_j2lte.mk
+    $(LOCAL_PATH)/lineage_j3xltexx.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_j2lte-user \
-    lineage_j2lte-userdebug \
-    lineage_j2lte-eng
+    lineage_j3xltexx-user \
+    lineage_j3xltexx-userdebug \
+    lineage_j3xltexx-eng

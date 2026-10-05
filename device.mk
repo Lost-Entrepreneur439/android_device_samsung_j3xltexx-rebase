@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/j2lte
+DEVICE_PATH := device/samsung/j3xltexx
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -38,4 +38,4 @@ $(call inherit-product, device/samsung/universal3475-common/device-common.mk)
 $(call inherit-product, device/samsung/universal3475-common/device-common_go.mk)
 
 # Call the proprietary setup
-$(call inherit-product, vendor/samsung/j2lte/j2lte-vendor.mk)
+$(call inherit-product, vendor/samsung/j3xltexx/j3xltexx-vendor.mk)

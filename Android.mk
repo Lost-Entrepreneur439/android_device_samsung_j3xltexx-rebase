@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/j2lte
+LOCAL_PATH := device/samsung/j3xltexx
 
-ifneq ($(filter j2lte,j2ltedd,j2ltedx,j2ltedtvvj,j2ltejv,j2lteub,j2ltezt,$(TARGET_DEVICE)),)
+ifneq ($(filter j3xltexx,j3xlteatt,j3xlteuc,j3xlteaio,j3ltetu,j3xltebmc,$(TARGET_DEVICE)),)
 
   subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
   $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))

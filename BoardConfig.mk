@@ -17,25 +17,25 @@
 # Inherit from universal3475-common
 include device/samsung/universal3475-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/j2lte
+DEVICE_PATH := device/samsung/j3xltexx
 
-TARGET_OTA_ASSERT_DEVICE := j2lte,j2ltedd,j2ltedx,j2ltedtvvj,j2ltejv,j2lteub,j2ltezt
+TARGET_OTA_ASSERT_DEVICE := j3xltexx,j3xlteatt,j3xlteuc,j3xlteaio,j3ltetu,j3xltebmc
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/configs/bluetooth
 
 # Boot Animation
-TARGET_SCREEN_HEIGHT := 960
-TARGET_SCREEN_WIDTH := 540
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
 
 # Display
-TARGET_SCREEN_DENSITY := 220
+TARGET_SCREEN_DENSITY := 320
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_j2lte
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_j3xltexx
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage-j2lte_defconfig
+TARGET_KERNEL_CONFIG := lineage-j3xltexx_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
